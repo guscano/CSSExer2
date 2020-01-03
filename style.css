@@ -1,0 +1,76 @@
+body {
+  background-color: #000000;/*changed to white background*/
+  color: #0000FF;
+  font-size: 16px; /*added font size to keep font uniform throughout*/
+  background-image: url(images/bloc-logo.png); /*fixed the company logo*/
+  background-image: url(images/instagram-pic.jpg);/*corrected the medium pic*/
+}
+
+nav {
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  margin: 20px; /*used to create space on page for the pic*/
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  font-size: 100%;
+}
+
+li {
+  float: right;
+  padding: 30px;
+  a:link (color:#0070BB); /*unvisited link*/
+  a:visited (color:#0070BA); /*visited link*/
+  a:hover (color:#0070BC); /*mouse over*/
+  a:active (color:#0070BD); /*selected*/
+}
+
+article {
+  padding-top: 100px;
+  font-size: 100%;
+  line-height: 2em; /*created more spacing to make reading clearer*/
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+h1 {
+  font-size: 2em; /*added element and specified font size for it*/
+}
+
+h3 { /* added element to specify font */
+  font-size: 1em;
+  font-style: italic;
+}
+
+.author { /*added this element to specify font size for author*/
+  font-size: .75em;
+}
